@@ -146,7 +146,7 @@ export default function Auth() {
                   </p>
                   {error.includes("email") && (
                     <p className="text-red-600 text-xs mt-2">
-                      💡 Make sure you're using the correct email address
+                      💡 Make sure you&apos;re using the correct email address
                     </p>
                   )}
                   {error.includes("password") && (

@@ -209,12 +209,12 @@ export default function Stories() {
         )}
       </div>
 
-      {/* Create Story Modal */}
-      <CreateStoryModal
+      {/* Create Story Modal - Coming Soon */}
+      {/* <CreateStoryModal
         isOpen={showCreateModal}
         onClose={() => setShowCreateModal(false)}
         onStoryCreated={fetchStories}
-      />
+      /> */}
     </div>
   );
 }
