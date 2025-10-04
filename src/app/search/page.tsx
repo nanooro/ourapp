@@ -10,6 +10,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Search as SearchIcon, ArrowLeft, UserPlus, UserCheck } from "lucide-react";
 import { supabase } from "@/lib/supabaseClient";
 import Link from "next/link";
+import { toast } from "sonner";
 
 interface User {
   id: string;
