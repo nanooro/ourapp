@@ -1,0 +1,27 @@
+{
+  "name": "Insta-clone",
+  "short_name": "Insta-clone",
+  "description": "A modern Instagram clone built with Next.js",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["social", "photo", "entertainment"],
+  "icons": [
+    {
+      "src": "/insta-clone-logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/insta-clone-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
