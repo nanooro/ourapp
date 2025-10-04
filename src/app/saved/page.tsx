@@ -231,7 +231,7 @@ export default function Saved() {
                     <div className="p-3">
                       <div className="flex items-center gap-2 mb-2">
                         <Avatar className="w-6 h-6">
-                          <AvatarImage src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${savedPost.post.user_id}`} />
+                          <AvatarImage src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${savedPost.post.id}`} />
                           <AvatarFallback className="text-xs">
                             {(savedPost.post.author_name || 'U').charAt(0).toUpperCase()}
                           </AvatarFallback>
