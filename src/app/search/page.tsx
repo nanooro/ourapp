@@ -82,6 +82,8 @@ export default function Search() {
 
   const handleFollow = async (targetUserId: string, username: string) => {
     if (!user) return;
+
+    try {
       const { data, error } = await supabase
         .from("follows")
         .insert({ user_id: user.id, following_id: targetUserId });
