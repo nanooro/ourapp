@@ -195,7 +195,7 @@ export default function Auth() {
 
         <Link href="/auth/signup">
           <span className="text-blue-500 font-medium cursor-pointer">
-            Don't have an account? <span className="underline">Sign up</span>
+            Don&apos;t have an account? <span className="underline">Sign up</span>
           </span>
         </Link>
       </Card>

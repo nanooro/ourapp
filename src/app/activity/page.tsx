@@ -146,7 +146,7 @@ export default function Activity() {
             </div>
             <h2 className="text-xl font-semibold mb-2">No Activity Yet</h2>
             <p className="text-gray-600">
-              When someone likes, comments, or follows you, you'll see it here.
+              When someone likes, comments, or follows you, you&apos;ll see it here.
             </p>
           </Card>
         ) : (
