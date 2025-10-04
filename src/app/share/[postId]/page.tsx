@@ -261,7 +261,7 @@ export default function SharePage() {
             </div>
 
             {/* Native Share (if supported) */}
-            {navigator.share && (
+            {typeof window !== 'undefined' && 'share' in navigator && (
               <Button
                 onClick={handleNativeShare}
                 className="w-full justify-start"
