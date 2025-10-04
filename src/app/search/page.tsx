@@ -59,8 +59,7 @@ export default function Search() {
       const { data, error } = await supabase
         .from("users")
         .select("id, username, full_name, avatar_url, bio, followers_count")
-        .ilike("username", `%${searchQuery}%`)
-        .or("ilike", "full_name", `%${searchQuery}%`);
+        .or(`username.ilike.%${searchQuery}%,full_name.ilike.%${searchQuery}%`);
 
       if (error) {
         toast.error("Failed to search users");
